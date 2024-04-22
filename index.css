@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 650px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+  gap: 1.5rem;
+}
+
+.intro img {
+  width: 100%;
+  object-fit: scale-down;
+  border-radius: 10px;
+}
+
+.intro h1 {
+  color: hsl(24, 5%, 18%);
+  font-weight: 600;
+  font-family: "Young Serif", serif;
+  font-size: 2.5rem;
+}
+
+.intro p {
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.prep-time p {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.prep-time ul {
+  padding: 1rem;
+}
+
+.prep-time li {
+  color: hsl(24, 5%, 18%);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.prep-time span {
+  color: hsl(24, 5%, 18%);
+  font-weight: 400;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  margin: 1rem 0;
+}
+
+.ingredients {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingredients ul {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+}
+
+.ingredients li {
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 0.5rem;
+}
+
+.Instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 1.5rem;
+}
+
+.Instructions ul {
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.Instructions li {
+  color: hsl(30, 10%, 34%);
+  margin: 0.5rem 1rem;
+  padding-left: 0.5rem;
+}
+
+.Instructions span {
+  font-weight: 600;
+  color: hsl(24, 5%, 18%);
+}
+
+.nutri p {
+  color: hsl(30, 10%, 34%);
+}
+
+.col1 {
+  color: hsl(30, 10%, 34%);
+  font-weight: 600;
+}
+
+.col2 {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
+table {
+  width: 100%;
+  margin-top: 1rem;
+}
+td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.last-row {
+  border: 0;
+}
